@@ -7,6 +7,6 @@ from urllib.parse import quote
 id = sys.argv[1]
 pw = sys.argv[2]
 
-r = f'http://{quote(id)}:{quote(pw)}'
+r = f'http://{quote(id)}:{quote(pw)}@'
 
 print(r)
